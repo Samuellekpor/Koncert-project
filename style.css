@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.big-container {
+  background-image: url(images/opera-g9f7852bbc_1280.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-container {
+  background: linear-gradient(#ffffffde,#d3d3d3f8);
+  height: 500px;
+  padding: 10px;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+  margin-right: 30px;
+}
+
+.bar {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: #272a31;
+  margin: 5px auto;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.toggle-btn.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.toggle-btn.active .bar:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+  background-color: #fff;
+  height: 1.5px;
+}
+
+.toggle-btn.active .bar:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+  background-color: #fff;
+  height: 1.5px;
+}
+
+.headline-title {
+  color: #ec5242;
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 85px 5px 30px 15px;
+}
+
+.headline-desc {
+  color: #272a31;
+  padding: 15px;
+  border: #fff 3px solid;
+  background-color: #d3d3d3;
+}
+
+.location {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.location h2 {
+  font-size: 35px;
+  color: #272a31;
+  font-weight: bold;
+}
+
+.location p {
+  color: #272a31;
+}
