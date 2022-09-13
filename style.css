@@ -9,15 +9,15 @@ body {
 }
 
 .big-container {
-  background-image: url(images/opera-g9f7852bbc_1280.jpg);
-  height: 500px;
+  background-image: url(images/background.jpg);
+  height: 600px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .header-container {
   background: linear-gradient(#ffffffde,#d3d3d3f8);
-  height: 500px;
+  height: 600px;
   padding: 10px;
 }
 
@@ -59,7 +59,7 @@ body {
   font-size: 35px;
   font-weight: 900;
   text-transform: uppercase;
-  margin: 85px 5px 30px 15px;
+  margin: 125px 5px 50px 15px;
 }
 
 .headline-desc {
@@ -82,4 +82,57 @@ body {
 
 .location p {
   color: #272a31;
+}
+
+.our-domains {
+  background-image: url(images/background-g.jpg);
+  color: #fff;
+  padding: 10px;
+}
+
+.domains-title {
+  text-align: center;
+}
+
+.domain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d3d3d317;
+  margin: 10px;
+  padding: 10px;
+}
+
+.domain img {
+  filter: opacity(0.6) drop-shadow(0 0 0 rgb(255, 255, 255));
+  height: 30px;
+  width: 30px;
+}
+
+.separator {
+  background-color: #ec5242;
+  height: 1px;
+  width: 55px;
+  display: block;
+  margin: 20px auto;
+}
+
+.domain-title {
+  color: #ec5242;
+  text-align: start;
+  width: 100px;
+}
+
+.domain-desc {
+  width: 170px;
+  font-size: 13px;
+}
+
+.button {
+  color: #fff;
+  background-color: #ec5242;
+  width: 70%;
+  height: 55px;
+  margin: 20px 15%;
+  border: 0;
 }
