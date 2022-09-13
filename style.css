@@ -136,3 +136,52 @@ body {
   margin: 20px 15%;
   border: 0;
 }
+
+.artists {
+  display: grid;
+  grid-gap: 20px;
+  padding: 15px;
+}
+
+.artists-title {
+  text-align: center;
+  color: #272a31;
+  margin-top: 50px;
+  
+}
+
+.artist {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.artist-image {
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+}
+
+.separator2 {
+  background-color: #444953;
+  height: 1px;
+  width: 25px;
+  display: block;
+  margin: 8px 0;
+}
+
+.artist-name {
+  font-size: 18px;
+  color: #272a31;
+}
+
+.job-desc {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.artist-desc {
+  font-size: 15px;
+  color: #444953;
+}
