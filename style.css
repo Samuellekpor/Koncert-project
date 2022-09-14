@@ -216,3 +216,14 @@ body {
   width: 33.3333%;
   padding: 10px;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  color: #444953;
+  font-weight: 600;
+}
+
+footer img {
+  width: 50%;
+}
