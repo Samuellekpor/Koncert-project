@@ -197,4 +197,22 @@ body {
 
 .partners {
   background-color: #272a31;
+  padding: 30px;
+}
+
+.partners-title {
+  text-align: center;
+  color: #fff;
+}
+
+.partner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partner img {
+  height: 50px;
+  width: 33.3333%;
+  padding: 10px;
 }
