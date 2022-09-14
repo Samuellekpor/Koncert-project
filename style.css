@@ -185,3 +185,16 @@ body {
   font-size: 15px;
   color: #444953;
 }
+
+.about-headline-title {
+  text-align: center;
+}
+
+.about-headline-desc {
+  text-align: center;
+  background-color: #fff;
+}
+
+.partners {
+  background-color: #272a31;
+}
