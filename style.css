@@ -296,6 +296,10 @@ footer img {
   width: 50%;
 }
 
+.see-domains {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .mobile {
     display: none;
@@ -358,5 +362,41 @@ footer img {
   .headline {
     margin-right: 30%;
   }
+
+  .domains {
+    display: flex;    
+    padding: 10px 10%;
+  }
+
+  .domain {
+    flex-direction: column;
+    width: 20%;
+    margin: 1px;
+    text-align: center;
+  }
+
+  .domain:hover {
+    border: #fff 1px solid;
+  }
+
+  .domains-title {
+    margin-top: 30px;
+  }
+
+  .domain-desc {
+    width: auto;
+    font-size: 13px;
+}
+
+.see-domains {
+  text-align: center;
+  color: #fff;
+  margin: 30px auto;
+  display: block;
+}
+
+.button {
+  display: none;
+}
 
 }
