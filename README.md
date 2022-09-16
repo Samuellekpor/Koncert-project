@@ -34,7 +34,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - For design inspiration we give credit to <a href="https://www.behance.net/adagio07" rel="noopener" target="_blank"><strong>Cindy Shin</strong></a>
-- For content inspiration we will like to give credit to <a href="https://www.linkedin.com/company/aei-group-limited/" rel="noopener" target="_blank"><strong>AEI Group Limited</strong></a>
+- For content inspiration we will like to give credit to <a href="https://www.linkedin.com/company/aei-group-limited/" rel="noopener" target="_blank"><strong>AEI Group Limited and his team</strong></a>
 - For Logo design, we will like to aknowledge <a href="https://www.pngwing.com/en/free-png-kfrkp/" rel="noopener" target="_blank"><strong>pngwing</strong></a>
 
 ## 📝 License
