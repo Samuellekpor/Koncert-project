@@ -16,7 +16,7 @@ body {
 }
 
 .header-container {
-  background: linear-gradient(#ffffffde,#d3d3d3f8);
+  background: linear-gradient(#ffffffde, #d3d3d3f8);
   height: 650px;
   padding: 10px;
 }
@@ -144,7 +144,7 @@ body {
   height: 55px;
   margin: 20px 15%;
   border: 0;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .artists {
@@ -157,7 +157,6 @@ body {
   text-align: center;
   color: #272a31;
   margin-top: 50px;
-  
 }
 
 .artist {
@@ -343,12 +342,9 @@ footer {
   color: #ec5242;
 }
 
-.logo, .nav-btn {
+.logo,
+.nav-btn {
   display: none;
-}
-
-footer img {
-  width: 50%;
 }
 
 .see-domains {
@@ -359,12 +355,17 @@ footer img {
   display: none;
 }
 
+#footer-image {
+  width: 50%;
+}
+
 @media (min-width: 768px) {
   .mobile {
     display: none;
   }
-  
-  .logo, .nav-btn {
+
+  .logo,
+  .nav-btn {
     display: block;
   }
 
@@ -426,7 +427,7 @@ footer img {
     margin-left: 50px;
     width: 15%;
     height: 30px;
-    background-color: #ffffff00;
+    background-color: #fff0;
     color: #ec5242;
     border: #ec5242 4px solid;
   }
@@ -446,14 +447,13 @@ footer img {
   }
 
   .about-headline {
-    margin-right: 0;
     margin: 30px auto;
     text-align: center;
     width: 70%;
   }
 
   .domains {
-    display: flex;    
+    display: flex;
     padding: 10px 10%;
   }
 
@@ -477,49 +477,50 @@ footer img {
   .domain-desc {
     width: auto;
     font-size: 13px;
-}
+  }
 
-.see-domains {
-  text-align: center;
-  color: #fff;
-  margin: 30px auto;
-  display: block;
-}
+  .see-domains {
+    text-align: center;
+    color: #fff;
+    margin: 30px auto;
+    display: block;
+  }
 
-.button {
-  display: none;
-}
+  .button {
+    display: none;
+  }
 
-.our-artists {
-  padding: 10px 10%;
-}
+  .our-artists {
+    padding: 10px 10%;
+  }
 
-.artists {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+  .artists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-.partners {
-  padding: 30px 10%;
-}
+  .partners {
+    padding: 30px 10%;
+  }
 
-.partner {
-  flex-wrap: nowrap;
-}
+  .partner {
+    flex-wrap: nowrap;
+  }
 
-.logo-history-desc {
-  margin: 10px 20%;
-}
- .concerts {
-  display: flex;
-  justify-content: center;
- }
+  .logo-history-desc {
+    margin: 10px 20%;
+  }
 
- .concert-img {
-  height: 250px;
- }
-footer img {
-  width: 30%;
-}
+  .concerts {
+    display: flex;
+    justify-content: center;
+  }
 
+  .concert-img {
+    height: 250px;
+  }
+
+  #footer-image {
+    width: 30%;
+  }
 }

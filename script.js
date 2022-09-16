@@ -15,44 +15,43 @@ document.querySelectorAll('.nav-list>li>a').forEach((n) => n.addEventListener('c
   navBar.classList.remove('active');
 }));
 
-
 const artistObject = [
   {
-  artistName : 'Sarah Cole',
-  jobDesc : 'Director AEI Group | Consultant SuperCharged Music',
-  artistImage : 'images/crew-member1.jpg',
-  artistDesc : 'Over 20 years experience in dance music events having promoted some of the UK\'s biggest brands and artists.'
-},
-{
-  artistName : 'Rupert Plumb',
-  jobDesc : 'Head Of Product Development at AEI Group Ltd',
-  artistImage : 'images/crew-member2.jpg',
-  artistDesc : 'Specialities: Messenger Bots, Tech and Innovation, Project Management, Community Relations Management, UX, E-commerce, Ticketing'
-},
-{
-  artistName : 'Jennifer Cochrane',
-  jobDesc : 'Founder at Work Inspired & CO-Founder & CEO Getahead',
-  artistImage : 'images/crew-member3.jpg',
-  artistDesc : 'Glasgow born and raised Jenni is CEO & Co-Founder of mental health and wellbeing non-profit Getahead, and Founder & CEO of wellbeing consultancy business Work Inspired.'
-},
-{
-  artistName : 'Kate Osler',
-  jobDesc : 'Managing Director at AEI Group',
-  artistImage : 'images/crew-member4.jpg',
-  artistDesc : 'Kate is a pleasure to work with; creative, reliable and open to suggestions to market her events and brands in new and exciting ways.'
-},
-{
-  artistName : 'Martha Bolton 🤹‍♀️',
-  jobDesc : 'Momager @ Not Bad For A Girl, Digital Marketing Manager @ UKF + Drum&BassArena | Music, Marketing and Events',
-  artistImage : 'images/crew-member5.jpg',
-  artistDesc : 'Advocate for women and non-binary people in music.'
-},
-{
-  artistName : 'Oyebambo Ojo',
-  jobDesc : 'Marketing Coordinator at AEI Group',
-  artistImage : 'images/crew-member6.jpg',
-  artistDesc : 'Passionate music lover with a proven history of designing and delivering marketing campaigns that create conversations.'
-}];
+    artistName: 'Sarah Cole',
+    jobDesc: 'Director AEI Group | Consultant SuperCharged Music',
+    artistImage: 'images/crew-member1.jpg',
+    artistDesc: 'Over 20 years experience in dance music events having promoted some of the UK\'s biggest brands and artists.',
+  },
+  {
+    artistName: 'Rupert Plumb',
+    jobDesc: 'Head Of Product Development at AEI Group Ltd',
+    artistImage: 'images/crew-member2.jpg',
+    artistDesc: 'Specialities: Messenger Bots, Tech and Innovation, Project Management, Community Relations Management, UX, E-commerce, Ticketing',
+  },
+  {
+    artistName: 'Jennifer Cochrane',
+    jobDesc: 'Founder at Work Inspired & CO-Founder & CEO Getahead',
+    artistImage: 'images/crew-member3.jpg',
+    artistDesc: 'Glasgow born and raised Jenni is CEO & Co-Founder of mental health and wellbeing non-profit Getahead, and Founder & CEO of wellbeing consultancy business Work Inspired.',
+  },
+  {
+    artistName: 'Kate Osler',
+    jobDesc: 'Managing Director at AEI Group',
+    artistImage: 'images/crew-member4.jpg',
+    artistDesc: 'Kate is a pleasure to work with; creative, reliable and open to suggestions to market her events and brands in new and exciting ways.',
+  },
+  {
+    artistName: 'Martha Bolton 🤹‍♀️',
+    jobDesc: 'Momager @ Not Bad For A Girl, Digital Marketing Manager @ UKF + Drum&BassArena | Music, Marketing and Events',
+    artistImage: 'images/crew-member5.jpg',
+    artistDesc: 'Advocate for women and non-binary people in music.',
+  },
+  {
+    artistName: 'Oyebambo Ojo',
+    jobDesc: 'Marketing Coordinator at AEI Group',
+    artistImage: 'images/crew-member6.jpg',
+    artistDesc: 'Passionate music lover with a proven history of designing and delivering marketing campaigns that create conversations.',
+  }];
 
 const ourDomain = document.getElementById('our-domains');
 
@@ -77,7 +76,6 @@ function createDom() {
   ourArtists.appendChild(title);
   ourArtists.appendChild(separator);
   ourArtists.appendChild(artistsSec);
-
 
   Object.keys(artistObject).forEach((key) => {
     const artist = document.createElement('div');
@@ -114,7 +112,7 @@ function createDom() {
     descContainer.appendChild(artistDescript);
 
     insertAfter(ourDomain, ourArtists);
-  })
+  });
 }
 
 window.addEventListener('load', () => {
