@@ -120,7 +120,7 @@ body {
 
 .separator {
   background-color: #ec5242;
-  height: 1px;
+  height: 2px;
   width: 55px;
   display: block;
   margin: 20px auto;
@@ -144,6 +144,7 @@ body {
   height: 55px;
   margin: 20px 15%;
   border: 0;
+  cursor:pointer;
 }
 
 .artists {
@@ -460,6 +461,8 @@ footer img {
     width: 20%;
     margin: 1px;
     text-align: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 
   .domain:hover {
