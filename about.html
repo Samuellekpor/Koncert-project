@@ -11,8 +11,15 @@
   <title>About</title>
 </head>
 <body>
-  <div class="big-container">
-    <div class="header-container about-header">
+  <div class="big-container about-big-container">
+    <div class="contact-bar">
+      <img src="images/facebook-f.png" alt="facebook-icon">
+      <img src="images/twitter.png" alt="twitter">
+      <p>English</p>
+      <p>My Page</p>
+      <p>Logout</p>
+    </div>
+    <div class="header-container about-header-container">
       <header class="header">
         <nav class="nav-bar">
           <a href="index.html" class="logo"><img src="images/pngwing.com.png" alt="logo" class="logo"></a>
@@ -22,16 +29,17 @@
             <span class="bar"></span>
           </a>
           <ul class="nav-list">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="mobile">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="#">Music Lover</a></li>
             <li><a href="#">Artists</a></li>
             <li><a href="#">Entrepreneur</a></li>
-            <li><a href="about.html">About us</a></li>
             <button type="button" class="nav-btn">Join Us</button>
           </ul>
         </nav>
       </header>
       <div class="headline about-headline">
+        <h3 class="first-title about-title">"Hello! Sharing World"</h3>
         <h1 class="headline-title about-headline-title">We bring like-minded people together</h1>
         <p class="headline-desc about-headline-desc">Music Makes Us is powered by a close-knit collective of music fans, for whom working in this industry is a lifestyle choice. We celebrate purposeful work, diversity, collaboration, transparency, experimentation and personal development. 
         <span class="desktop">Throughout our 20-year history our innovative approach has reflected the fast-pace of the music industry itself.</span> We consistantly embrace new technologies, adopt disruptive business models and pivot to stay ahead of trendswhile remaining relevnant and exciting to our clients, customers and audiences</p>
@@ -74,8 +82,8 @@
     </div>
   </section>
 
-  <section class="partners">
-    <h2 class="partners-title">Partner</h2>
+  <section class="partners about-partners">
+    <h2 class="partners-title">Partners</h2>
     <span class="separator"></span>
     <div class="partner">
       <img src="images/Deezer-logo.png" alt="">
@@ -86,8 +94,8 @@
     </div>
   </section>
 
-  <footer>
-    <img id="footer-image" src="images/pngwing.com.png" alt="logo">
+  <footer class="about-footer">
+    <a href="index.html" class="footer-image"><img class="footer-image" src="images/pngwing.com.png" alt="logo"></a>
     <p>Music Makes Us <br> Some rights reserved</p>
   </footer>
   <script src="script.js"></script>

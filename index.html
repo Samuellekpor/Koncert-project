@@ -13,6 +13,13 @@
 
 <body>
   <div class="big-container">
+    <div class="contact-bar">
+      <img src="images/facebook-f.png" alt="facebook-icon">
+      <img src="images/twitter.png" alt="twitter">
+      <p>English</p>
+      <p>My Page</p>
+      <p>Logout</p>
+    </div>
     <div class="header-container">
       <header class="header">
         <nav class="nav-bar">
@@ -23,16 +30,18 @@
             <span class="bar"></span>
           </a>
           <ul class="nav-list">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="mobile">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="#">Music Lover</a></li>
             <li><a href="#">Artists</a></li>
             <li><a href="#">Entrepreneur</a></li>
-            <li><a href="about.html">About us</a></li>
+
             <button type="button" class="nav-btn">Join Us</button>
           </ul>
         </nav>
       </header>
       <div class="headline">
+        <h3 class="first-title">"Hello! Sharing World"</h3>
         <h1 class="headline-title">We bring like-minded people together</h1>
         <p class="headline-desc">We help artists, entrepreneurs and music lovers turn their passion into lifetime careers. Together we make music, build global bands and curate unique festival experiences</p>
         <div class="location">
@@ -91,7 +100,7 @@
   </section>
 
   <footer>
-    <img id="footer-image" src="images/pngwing.com.png" alt="logo">
+    <a href="index.html" class="footer-image"><img class="footer-image" src="images/pngwing.com.png" alt="logo"></a>
     <p>Music Makes Us <br> Some rights reserved</p>
   </footer>
   <script src="script.js"></script>
