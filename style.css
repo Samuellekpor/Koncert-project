@@ -307,6 +307,7 @@ body {
 .concert {
   margin: 20px;
   position: relative;
+  z-index: -1;
 }
 
 .concert-img {
@@ -582,6 +583,13 @@ footer {
 
   .partner {
     flex-wrap: nowrap;
+  }
+
+  .partner img {
+    margin: 0 20px;
+    padding: 0;
+    height: 25px;
+    width: auto;
   }
 
   .logo-history-desc {
