@@ -66,9 +66,9 @@ npx eslint .
 
 👤 **Sammuel LEKPOR**
 
-- GitHub: [@githubhandle](https://github.com/Samuellekpor)
-- Twitter: [@twitterhandle](https://twitter.com/samuel_lekpor)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/sammuel-lekpor)
+- GitHub: [@Samuellekpor](https://github.com/Samuellekpor)
+- Twitter: [@samuel_lekpor](https://twitter.com/samuel_lekpor)
+- LinkedIn: [sammuel_kepor](https://linkedin.com/in/sammuel-lekpor)
 
 ## 🤝 Contributing
 
